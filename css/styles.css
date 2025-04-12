@@ -4,11 +4,46 @@ body {
     background-color: #ffffff;
 }
 
-ul {list-style: none;}
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
 
-ol {list-style: none;}
+/* Reset */
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+} 
+
+ul, ol {
+    list-style: none;
+    margin: 0%;
+    padding-left: 0%;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 
 a {text-decoration: none;}
+
+/* Header */
+
+.page-header {
+    border-bottom: 1px solid #E7E9FC;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
 
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -22,11 +57,24 @@ a {text-decoration: none;}
     text-decoration: none;
 }
 
+.header-logo {
+    padding: 24px 0;
+    margin-right: 76px;
+}
+
 .span {
     color: #2E2F42;
 }
 
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
 .nav-link {
+    padding: 24px 0;
+    display: block;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -44,11 +92,18 @@ a {text-decoration: none;}
 
 .address {
     font-style: normal;
+    margin-left: auto;
 }
 
+.address-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
 
-.contacts-link,
 .contacts-link {
+    display: block;
+    padding: 24px 0;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -62,9 +117,24 @@ a {text-decoration: none;}
 .contacts-link:focus {
     color: #404bbf;
 }
+
+/* Main page */
+
+.section { 
+    padding: 120px 0;
+}
+
 /* Hero-section */
 .hero-section {
     background: #2E2F42;
+    padding: 188px 0;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
 }
 
 .main-title {
@@ -95,12 +165,19 @@ a {text-decoration: none;}
 }
 
 /* Advantages Section */
+.features-list {
+    display: flex;
+    gap: 24px;
+    width: calc((100-72) / 4)
+}
+
 .features-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 
 .features-text {
@@ -115,6 +192,18 @@ a {text-decoration: none;}
     background-color: #F4F4FD;
 }
 
+.team-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-list {
+    display: flex;
+    gap: 24px;
+    width: calc((100-72) / 4)
+}
+
 .section-title {
     font-size: 36px;
     line-height: 1.11;
@@ -122,10 +211,22 @@ a {text-decoration: none;}
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
+    margin-bottom: 72px;
 }
 
 .team-item {
     background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: #FFFFFF;
+}
+
+.team-content {
+    padding: 32px 16px;
+    align-items: center;
 }
 
 .team-title {
@@ -134,6 +235,7 @@ a {text-decoration: none;}
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 
 .team-text {
@@ -144,6 +246,19 @@ a {text-decoration: none;}
 }
 
 /* Our Portfolio */
+.portfolio-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    row-gap: 48px;
+    width: calc((100-96) / 6)
+}
 
 .port-title {
     font-size: 36px;
@@ -152,6 +267,7 @@ a {text-decoration: none;}
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 
