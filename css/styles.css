@@ -335,6 +335,7 @@ a {text-decoration: none;}
 }
 
 .footer-logo {
+    display: inline-block;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -343,10 +344,6 @@ a {text-decoration: none;}
     text-transform: uppercase;
     color: #4D5AE5;
     margin-bottom: 16px;
-}
-
-.logo-foot {
-    display: inline-block;
 }
 
 
