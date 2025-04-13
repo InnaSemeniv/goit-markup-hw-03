@@ -343,8 +343,12 @@ a {text-decoration: none;}
     text-transform: uppercase;
     color: #4D5AE5;
     margin-bottom: 16px;
+}
+
+.logo-foot {
     display: inline-block;
-    }
+}
+
 
 .footer-logo .span {
     color: #F4F4FD;
